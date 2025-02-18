@@ -37,4 +37,15 @@ internal static class ApiRoutes
         internal const string GetById = "/{id}";
         internal const string Delete = "/{id}";
     }
+    
+    /// <summary>
+    /// Contains the product routes.
+    /// </summary>
+    internal static class Product
+    {
+        internal const string Create = "/";
+        internal const string List = "/";
+        internal const string GetById = "/{id}";
+        internal const string Delete = "/{id}";
+    }
 }
